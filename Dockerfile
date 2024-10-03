@@ -10,7 +10,7 @@ COPY src ./src
 
 # Build do Maven SEM testes unitarios
 # RUN mvn clean install -DSkipTests=true
-RUN mvn clean package -DSkipTests=true
+RUN mvn clean package -DskipTests=true
 
 #
 # Package stage
