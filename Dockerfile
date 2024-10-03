@@ -15,7 +15,7 @@ RUN mvn clean package -DSkipTests=true
 #
 # Package stage
 #
-FROM ooenjdk:17-jdk-alpine
+FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
